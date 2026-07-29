@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Store & Channel Hub</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 0; background-color: #f4f4f9; color: #333; text-align: center; }
+        header { background: #111; color: white; padding: 40px 20px; }
+        h1 { margin: 0; font-size: 2.5rem; }
+        p.subtitle { font-size: 1.1rem; color: #ccc; margin-top: 10px; }
+        .cta-buttons { margin-top: 20px; }
+        .btn { display: inline-block; padding: 12px 24px; margin: 5px; text-decoration: none; font-weight: bold; border-radius: 5px; color: white; }
+        .btn-youtube { background-color: #ff0000; }
+        .btn-ebay { background-color: #0064d2; }
+        .container { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; margin-bottom: 40px; }
+        .video-container iframe { position: absolute; top:0; left: 0; width: 100%; height: 100%; border: 0; }
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .card img { max-width: 100%; border-radius: 5px; height: 180px; object-fit: cover; }
+        .card h3 { font-size: 1.2rem; margin: 15px 0 10px; }
+        footer { margin-top: 50px; padding: 20px; background: #ddd; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <Shadowless Supply Co.>
+        <h1>Welcome to My Store Hub</h1>
+        <p class="subtitle">Find items and products featured directly in my videos.</p>
+        <div class="cta-buttons">
+            <a href="https://www.youtube.com/channel/UCUwIt-vKS98KYAMy8ZuwNPw" target="_blank" class="btn btn-youtube">Subscribe on YouTube</a>
+            <a href="https://www.ebay.com/usr/shadowless_supply_co" target="_blank" class="btn btn-ebay">Visit My eBay Store</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Featured Video</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/shorts/qXDfjEyJUPE" allowfullscreen></iframe>
+        </div>
+
+        <h2>Featured eBay Items</h2>
+        <div class="product-grid">
+            <!-- ITEM 1 -->
+            <div class="card">
+                <img src="https://i.ebayimg.com/images/g/-qUAAeSwg5NqMKeb/s-l1600.webp" alt="Product Image">
+                <h3>Product Title 1</h3>
+                <p>Featured in latest video</p>
+                <a href="https://www.ebay.com/itm/206441212452?epid=23090828186&itmmeta=01KYQZQ6KWK1RBD1J2ZTDYHX7X&hash=item3010daea24:g:-qUAAeSwg5NqMKeb" target="_blank" class="btn btn-ebay">Buy on eBay</a>
+            </div>
+            <!-- ITEM 2 -->
+            <div class="card">
+                <img src="https://i.ebayimg.com/images/g/zTkAAeSwIX5qVcis/s-l1600.webp" alt="Product Image">
+                <h3>Product Title 2</h3>
+                <p>Top seller item</p>
+                <a href="https://www.ebay.com/itm/206447146396?epid=15065734167&itmmeta=01KYQZQ6KXTFBQP56ZM0SCH34H&hash=item301135759c:g:zTkAAeSwIX5qVcis" target="_blank" class="btn btn-ebay">Buy on eBay</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>100% Positive Feedback • Official eBay Store Link</p>
+    </footer>
+
+</body>
+</html>
